@@ -146,6 +146,7 @@ if(err)
 
 
                 }
+            jstreeData=common.array.sort(jstreeData,"text")
                 JstreeWidget.loadJsTree(self.rdlJstreeDiv, jstreeData, options)
                 // Containers_tree.drawTree(self.parkagesJstreeDivId, self.currentSource, "#",jstreeData, options);
 
